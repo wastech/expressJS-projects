@@ -1,0 +1,33 @@
+{
+  "name": "day1--task-manager",
+  "version": "1.0.0",
+  "description": "a simple nodejs API task manager built with [expressJs nodeJs mongoDB]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wastech/100-nodejs-projects.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "expressJS",
+    "Mongoose",
+    "MongoDB"
+  ],
+  "author": "wastech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wastech/100-nodejs-projects/issues"
+  },
+  "homepage": "https://github.com/wastech/100-nodejs-projects#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
