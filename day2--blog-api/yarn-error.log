@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add bcrypt dotenv express mongosse multer path
+
+PATH: 
+  /lib/jvm/jdk-16.0.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/lib/jvm/jdk-17/bin:/home/wastech/Android/Sdk/tools:/home/wastech/Android/Sdk/platform-tools:/home/wastech/Android/Sdk/tools:/home/wastech/Android/Sdk/platform-tools:/home/wastech/Android/Sdk/emulator:/home/wastech/Android/Sdk/tools:/home/wastech/Android/Sdk/tools/bin:/home/wastech/Android/Sdk/platform-tools:/home/wastech/.npm-global/b:/home/wastech/.npm-global/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongosse: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "day2--blog-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
