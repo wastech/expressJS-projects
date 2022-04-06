@@ -25,5 +25,5 @@ and web frameworks as well.</p>
 <p>
 [Express](https://expressjs.com/) solves these and many other problems. It provides ways to reuse code elegantly and provides a
 model-view-controller (MVC)-like structure for your web apps. The model (M) part needs to be supplied by an
-additional database-driver library (e.g., [Mongoose](https://mongoosejs.com/). Those apps could vary from barebones, back-end-only
+additional database-driver library (e.g., [Mongoose](https://mongoosejs.com/)). Those apps could vary from barebones, back-end-only
 REST APIs to full-blown, full-stack, real-time web apps with additional libraries such as [jade-browser](https://npmjs.org/package/jade-browser) and [socket.io](http://socket.io).
